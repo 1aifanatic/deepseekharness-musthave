@@ -18,7 +18,7 @@
 
 .NOTES
   Run with (PowerShell 5.1+ or PowerShell 7):
-      irm https://raw.githubusercontent.com/ai-fanatic/deepseek-harness-phone-access/main/setup-phone-access.ps1 | iex
+      irm https://raw.githubusercontent.com/1aifanatic/deepseek-harness-phone-access/main/setup-phone-access.ps1 | iex
 #>
 
 $ErrorActionPreference = 'Stop'

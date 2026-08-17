@@ -16,7 +16,7 @@ Use the **DeepSeek Harness GUI from your phone** while the work stays on your la
 2. Paste this and press **Enter**:
 
 ```powershell
-irm https://raw.githubusercontent.com/ai-fanatic/deepseek-harness-phone-access/main/setup-phone-access.ps1 | iex
+irm https://raw.githubusercontent.com/1aifanatic/deepseek-harness-phone-access/main/setup-phone-access.ps1 | iex
 ```
 
 3. Follow the prompts. The script will:
