@@ -1,0 +1,5 @@
+name: gemini-cli-router
+version: 1.0.0
+description: Google Gemini model router and delegation tools for DeepSeek Harness
+author: AI Fanatic
+license: MIT
