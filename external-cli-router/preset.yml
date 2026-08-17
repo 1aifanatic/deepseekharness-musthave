@@ -1,0 +1,17 @@
+id: external-cli-router
+name: External CLI Router
+description: >
+  Routes DeepSeek Harness model calls to locally installed Claude Code CLI and
+  OpenAI Codex CLI. Adds three integration points: LLM adapters (model picker),
+  delegation tools (delegate_to_claude / delegate_to_codex), and one-shot
+  subagent providers (claude-cli-oneshot / codex-cli-oneshot).
+
+  Prerequisites:
+    - Claude Code CLI: https://docs.anthropic.com/en/docs/claude-code
+    - Codex CLI:        https://github.com/openai/codex (or install via `pip install codex`)
+    - Both CLIs must be on PATH and authenticated.
+
+  After installing, activate via:
+    cordis_define + cordis_run  (see README for the one-liner)
+  Or place this preset in ~/.dsh/.agent-presets/external-cli-router/
+  and start a new session.
